@@ -3,43 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background: linear-gradient(to right, #4CAF50, #00796B);
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            font-weight: bold;
+            font-size: 32px;
+        }
+
+        main {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        section {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        section h2 {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        section p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .mission {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 40px 20px;
+            border-radius: 10px;
+            margin: 40px 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .mission h3 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .mission p {
+            font-size: 18px;
+            margin: 0;
+        }
+
+        footer {
+            background: linear-gradient(to right, #4CAF50, #00796B);
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+        }
+
+        nav {
+            background: linear-gradient(to right, #4CAF50, #00796B);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ddd;
+        }
+
+        @media (max-width: 768px) {
+            section h2 {
+                font-size: 28px;
+            }
+
+            section p {
+                font-size: 16px;
+            }
+
+            .mission h3 {
+                font-size: 24px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                font-size: 28px;
+            }
+
+            .mission {
+                padding: 30px 20px;
+            }
+
+            .mission h3 {
+                font-size: 20px;
+            }
+
+            section p {
+                font-size: 14px;
+            }
+        }
+    </style>
 </head>
-<header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-    </nav>
-    <h1>Clothing Store</h1>
-</header>
 <body>
-    <div >
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKf6vzN828bkapYcxqQ02mNvPqlijr2d51XqlGMsCx3A&s"> 
-        <p>You can contact us at our email and text us </p>
-        <p>Email: info@clothingstore.com</p>
-        <p>Phone: 044-344-275</p>
+
+<header>
+    Contact Us
+</header>
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</nav>
+<main>
+    <section>
+        <h2>Welcome to Stylish Apparel</h2>
+        <p>Where fashion meets quality. Our designs combine modern trends with timeless style, crafted for comfort and confidence.</p>
+    </section>
+
+    <div class="mission">
+        <h3>Our Mission</h3>
+        <p>To provide stylish, sustainable fashion that empowers you to feel confident and look great, every day.</p>
+        <p>Contact ut as +3834550178</p>
     </div>
-    <div >
-        <p>You can contact us at our email and text us </p>
-        <p>Email: info@clothingstore.com</p>
-        <p>Phone: 044-344-275</p>
-    </div>
-    <div >
-        <p>You can contact us at our email and text us </p>
-        <p>Email: info@clothingstore.com</p>
-        <p>Phone: 044-344-275</p>
-    </div>
-    <div >
-        <p>You can contact us at our email and text us </p>
-        <p>Email: info@clothingstore.com</p>
-        <p>Phone: 044-344-275</p>
-    </div>
-    <footer>
-        <p>&copy; 2024 Clothing Store</p>
-    </footer>
+</main>
+
+<footer>
+    <p>&copy; 2024  | All Rights Reserved</p>
+</footer>
+
 </body>
 </html>
