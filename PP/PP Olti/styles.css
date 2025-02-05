@@ -121,7 +121,7 @@ section p {
     color: #555;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .product {
         width: 45%;
